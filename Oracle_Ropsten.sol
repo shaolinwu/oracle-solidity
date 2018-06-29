@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 import "github.com/tadejrola/oracle-solidity/OracleService.sol";
 
-contract PKP_oracle{
+contract Oracle{
 
     OracleService internal os;
     constructor(){
