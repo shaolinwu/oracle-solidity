@@ -10,4 +10,8 @@ contract Oracle{
     function api_call(string _apiUrl, string _pathToData, address _caller) internal {
         os.api_call(_apiUrl, _pathToData, _caller);
     }
+    
+    function get_os_address() view returns (address){
+        return address(os);
+    }
 }
