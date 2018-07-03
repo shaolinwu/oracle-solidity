@@ -1,4 +1,4 @@
-# Repository Title Goes Here
+# Oracle - Solidity - Ropsten
 
 This is oracle implementation on Ropsten test network. 
 We are using web3 on Heroku cloud platform. Easy client implementation.
@@ -25,7 +25,7 @@ contract Client is Oracle{
     //example
     //_apiUrl= "https://api.coinmarketcap.com/v1/ticker/ethereum/"
     //_pathToData= "[0].price_usd"
-    function pridobiMojePodatke(string _apiUrl, string _pathToData) public {
+    function getMyData(string _apiUrl, string _pathToData) public {
         api_call(_apiUrl, _pathToData, address(this));
     }
 }
