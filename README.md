@@ -1,83 +1,37 @@
 # Repository Title Goes Here
 
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
+This is oracle implementation on Ropsten test network. 
+We are using web3 on Heroku cloud platform. Easy client implementation.
 
 
-## Example (Optional)
+## How to use on client
 
-```javascript
+```solidity
 // code away!
 
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+pragma solidity ^0.4.24;
+import "github.com/tadejrola/oracle-solidity/Oracle_Ropsten.sol";
+
+contract Client is Oracle{
+    
+    string public data;
+    
+    function __callback(string _data){
+        require (msg.sender == get_os_address());
+        data=_data;
+    }
+    
+    
+    //example
+    //_apiUrl= "https://api.coinmarketcap.com/v1/ticker/ethereum/"
+    //_pathToData= "[0].price_usd"
+    function pridobiMojePodatke(string _apiUrl, string _pathToData) public {
+        api_call(_apiUrl, _pathToData, address(this));
+    }
+}
+
 ```
 
----
-
-## Installation
-
-- All the `code` required to get started
-- Images of what it should look like
-
-### Clone
-
-- Clone this repo to your local machine using `https://github.com/tadejrola/oracle-solidity`
-
-### Setup
-
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
-
-> now install npm and bower packages
-
-```shell
-$ npm install
-$ bower install
-```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
-
----
-
-
-### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
-
-### Step 2
-
-- **HACK AWAY!** 🔨🔨🔨
-
-### Step 3
-
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
-
----
-
-## FAQ
-
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
-
----
 
 ## Support
 
