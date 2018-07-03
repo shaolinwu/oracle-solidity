@@ -7,7 +7,6 @@ We are using web3 on Heroku cloud platform. Easy client implementation.
 ## How to use on client
 
 ```solidity
-// code away!
 
 pragma solidity ^0.4.24;
 import "github.com/tadejrola/oracle-solidity/Oracle_Ropsten.sol";
