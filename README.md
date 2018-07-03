@@ -94,17 +94,9 @@ $ bower install
 
 ## Support
 
-Reach out to me at one of the following places!
+Reach out to me @:
 
-- Website at <a href="http://fvcproductions.com" target="_blank">`fvcproductions.com`</a>
-- Twitter at <a href="http://twitter.com/fvcproductions" target="_blank">`@fvcproductions`</a>
-- Insert more social links here.
+- Linkedin at <a href="https://www.linkedin.com/in/tadej-rola-003a9bb6/" target="_blank"></a>
+- Twitter at <a href="http://twitter.com/tadejrola" target="_blank"></a>
 
 ---
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
