@@ -29,7 +29,7 @@ let generateProject = project => {
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine using `https://github.com/tadejrola/oracle-solidity`
 
 ### Setup
 
@@ -53,19 +53,6 @@ $ bower install
 
 ---
 
-## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
-
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
-
----
-
-## Contributing
-
-> To get started...
 
 ### Step 1
 
@@ -96,7 +83,7 @@ $ bower install
 
 Reach out to me @:
 
-- Linkedin at <a href="https://www.linkedin.com/in/tadej-rola-003a9bb6/" target="_blank"></a>
-- Twitter at <a href="http://twitter.com/tadejrola" target="_blank"></a>
+- <a href="https://www.linkedin.com/in/tadej-rola-003a9bb6/" target="_blank">Linkedin</a>
+- <a href="http://twitter.com/tadejrola" target="_blank">Twitter</a>
 
 ---
