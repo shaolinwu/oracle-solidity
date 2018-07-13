@@ -22,7 +22,7 @@ contract Oracle{
         return address(os);
     }
 
-    function isEligible(address _addr) returns (bool){
+    function isEligible(address _addr) view returns (bool){
         return eligibleCaller[_addr];
     }
 }
